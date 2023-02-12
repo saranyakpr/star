@@ -12,29 +12,83 @@
 
    <script>
    
-       
-      
-      	let star=7;
-	    let string='';
-	    for (let i=1; i<=star; i++){
-		   for (let j=1; j<=star; j++){
-			   if(i===1 || i===star){
-				  string+="*";
-			    }
-			    else if(true){
-				   if(j===1 || j===star){
-					  string+='*';
-				    }
-				    else{
-					   string+=" ";
-				    }
-			    }
-		    }
-		string+="\n"
-	    }
-        console.log(string);
-   
-   
+    // square pattern
+	
+	<!-- let n = 5; -->
+	<!-- let string = ""; -->
+	<!-- for(i=0; i<5; i++){ -->
+	   <!-- for(j=0; j<5; j++){ -->
+	      <!-- string+='*' -->
+	   <!-- } -->
+	   <!-- string+='\n'; -->
+	<!-- } -->
+	<!-- console.log(string) -->
+	
+	// hollow square pattern
+	
+	<!-- let n=5; -->
+	<!-- let string = ''; -->
+	
+	<!-- for(i=0; i<5;i++){ -->
+	   <!-- for(j=0; j<5; j++){ -->
+	      <!-- if(i===0 || i===n-1){ -->
+		     <!-- string+='*' -->
+		  <!-- } -->
+		  <!-- else{ -->
+		     <!-- if(j===0 || j===n-1){ -->
+			    <!-- string+='*' -->
+			 <!-- } -->
+			 <!-- else{ -->
+			    <!-- string+=" " -->
+			 <!-- } -->
+		  <!-- } -->
+	   <!-- } -->
+	   <!-- string+="\n" -->
+	<!-- } -->
+	<!-- console.log(string); -->
+	
+	// right triangle pattern
+	
+	<!-- let n=7; -->
+	<!-- let string =""; -->
+	
+	<!-- for(i=0; i<n; i++){ -->
+	   <!-- for(j=0; j<n-i; j++){ -->
+	      <!-- string+=" " -->
+	   <!-- } -->
+	   <!-- for(k=0; k<i; k++){ -->
+	      <!-- string+="*" -->
+	   <!-- } -->
+	   <!-- string+="\n"; -->
+	<!-- } -->
+	<!-- console.log(string); -->
+	
+	// left triangle pattern
+	
+	<!-- let n=7; -->
+	<!-- let string =""; -->
+	 
+	<!-- for(i=1; i<n; i++){ -->
+	   <!-- for(j=0; j<i; j++){ -->
+	      <!-- string+='*' -->
+	   <!-- } -->
+	   <!-- string+="\n" -->
+	<!-- } -->
+	<!-- console.log(string); -->
+	
+	// downward triangle pattern
+	
+	let n=5;
+	let string="";
+	
+	for(i=0; i<n; i++){
+	   for(j=0; j<n-i; j++){
+	      string+="*"
+	   }
+	   string+="\n";
+	}
+	console.log(string);
+     
    </script>
 
 
